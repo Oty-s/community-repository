@@ -19,6 +19,6 @@ jobs:
       - uses: Oty-s/community-repository/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
-          pr-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
-          footer: 'If you would like to continue contributing to open source and would like to do it with an awesome inclusive community'
+          issue-message: "<h1>Hello contributor, thank you for opening an Issue 🎉.</h1>"
+          pr-message: "<h1>Hello contributor, thank you for opening a Pull Request 🎉.</h1>"
+          footer: "Soon the maintainers/owner will review it and provide you with feedback/suggestions.<br>If you think it's something urgent, feel free to reach out 
