@@ -15,7 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Oty-s/community-repository/welcome@main
+
+      - uses: Oty-s/community-repository/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
