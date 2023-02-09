@@ -52,7 +52,7 @@ body:
     attributes:
       label: "🏢 Have you read the Contributing Guidelines?"
       options:
-        - label: "I have read the [Contributing Guidelines](https://github.com/IAmTamal/Milan/blob/main/CONTRIBUTING.md)"
+        - label: "I have read the [Contributing Guidelines])"
           required: true
 
   - type: dropdown
@@ -66,5 +66,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Follow me on Twitter [here](https://twitter.com/mrTamall)
-        Feel free to check out other cool repositories [here](https://github.com/IAmTamal)
+        Feel free to check out other cool repositories [here]()
